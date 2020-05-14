@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6AC091;
+    margin-bottom: 20px;
+    /* border: solid black 1px; */
+}
+
+.headerText {
+    /* border: solid black 1px; */
+    font-size: 70px;
+    font-weight: bolder;
+    color: aliceblue;
+
+    
+}

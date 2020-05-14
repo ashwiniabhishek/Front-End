@@ -1,0 +1,44 @@
+
+.table-container {
+    display:flex;
+    justify-content: center;
+}
+
+.table {
+    flex-basis: 60%;
+}
+
+ div.row:nth-child(even) {
+    background: #6AC091;
+    color:#F9F6F4;
+}
+div.row:nth-child(odd) {
+    background: #F9F6F4;
+    color:#6AC091;
+}
+
+.styledButton{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(66, 184, 221);
+    font-size: 150%;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    border:solid black 2px;
+    justify-content: space-around; /*for management of space left after assigning a width to each child i.e after using flex-basis*/
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+p,a {
+    flex-basis: 30%; /*for assigning width to each item in a div flexbox i.e same as width*/
+    /* border:solid black 1px; */
+}
+
+img {
+    mix-blend-mode: multiply;
+}
